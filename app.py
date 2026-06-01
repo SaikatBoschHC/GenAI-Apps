@@ -36,6 +36,7 @@ def generate_response(question,api_key,llm,temparature,max_tokens):
 
 ## tittle of the app
 st.title(" Welcome to the Groq Chatbot, How can I help you ?")
+st.secrets["HF_TOKEN"]
 
 st.sidebar.title("Settings")
 ## Dropdown to select various Model
